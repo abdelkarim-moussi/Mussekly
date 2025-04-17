@@ -1,10 +1,6 @@
-import React from 'react'
+import { Search } from "../components/Search";
 
-export const Home = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+function Home() {
+  return <Search />;
 }
-
+export default Home;

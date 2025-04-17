@@ -6,23 +6,31 @@ export const Navbar = () => {
 
   return (
     <div className="bg-[#181B21] w-[200px] h-[100vh] rounded-3xl">
-      <h1 className="text-[#E87629] text-center font-semibold text-md pt-2 mb-10">
-        Museekly
+      <h1 className="text-[#E87629] text-center font-semibold text-[1.1rem] pt-2 mb-10">
+        MUSEE.<span className="text-white">KLY</span>
       </h1>
 
       <nav>
         <ul className="text-white flex flex-col gap-5 px-3">
           <li className="bg-[#303236] py-1.5 rounded-xl text-white">
-            <Link to="/home" className="mx-4 text-sm">Home</Link>
+            <Link to="/home" className="mx-4 text-sm">
+              Home
+            </Link>
           </li>
           <li className="py-1.5 rounded-xl text-gray-200 hover:bg-[#303236] hover:text-white">
-            <Link to="/categorie" className="mx-4 text-sm">Categories</Link>
+            <Link to="/categorie" className="mx-4 text-sm">
+              Categories
+            </Link>
           </li>
           <li className="py-1.5 rounded-xl hover:bg-[#303236] hover:text-white">
-            <Link to="/artists" className="mx-4 text-sm">Artists</Link>
+            <Link to="/artists" className="mx-4 text-sm">
+              Artists
+            </Link>
           </li>
           <li className="py-1.5 rounded-xl text-gray-200 hover:bg-[#303236] hover:text-white">
-            <Link to="/playlists" className="mx-4 text-sm">Playlists</Link>
+            <Link to="/playlists" className="mx-4 text-sm">
+              Playlists
+            </Link>
           </li>
         </ul>
         <Outlet />
