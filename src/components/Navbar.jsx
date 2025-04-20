@@ -5,7 +5,7 @@ export const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className="bg-[#181B21] w-[200px] h-[100vh] rounded-3xl">
+    <div className="bg-[#181B21] w-[250px] h-[100vh] rounded-3xl">
       <h1 className="text-[#E87629] text-center font-semibold text-[1.1rem] pt-2 mb-10">
         MUSEE.<span className="text-white">KLY</span>
       </h1>
